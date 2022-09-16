@@ -1,10 +1,30 @@
 # Video Game Leaderboard
 
-> Demo project to messa around
+> Demo project to mess around
 
 # Project Overview
 
 # Architecture Overview
+
+```text
+----------
+|        |     -------
+| PLAYER | --> |     |
+|        |     |     |
+----------     |     |
+               |     |
+----------     |  K  |
+|        |     |  A  |
+|  GAME  | --> |  F  | -->
+|        |     |  K  |
+----------     |  A  |
+               |     |
+----------     |     |
+|        |     |     |
+| SCORES | --> |     |
+|        |     ------- 
+----------
+```
 
 # Installation
 
