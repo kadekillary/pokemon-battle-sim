@@ -8,14 +8,18 @@
 
 # Installation
 
-* [Install Kafka](https://tecadmin.net/how-to-install-apache-kafka-on-ubuntu-22-04/))
+* [Install Kafka](https://tecadmin.net/how-to-install-apache-kafka-on-ubuntu-22-04/)
 * [Install KsqlDB](https://ksqldb.io/quickstart-standalone-deb.html#quickstart-content)
 
 # Up & Running
 
 # Data
 
+> Synthetic data was generated utilizing the Golang package below.
+
 * [GoFakeIt](https://github.com/brianvoe/gofakeit)
+
+# Data Overview
 
 * Player data
 ```json
