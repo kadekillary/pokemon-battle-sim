@@ -35,9 +35,8 @@
 
 # Data
 
-> Synthetic data was generated utilizing the Golang package below.
-
 * [GoFakeIt](https://github.com/brianvoe/gofakeit)
+* [SNES Games](https://www.gamedesigning.org/gaming/snes/)
 
 # Data Overview
 
