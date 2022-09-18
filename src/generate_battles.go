@@ -38,12 +38,12 @@ func main() {
 		battleId := i
 		attacker := []byte(pokemon[rand.Intn(pokemonLen-1)])
 		attackerDetails, _ := json.Marshal(BattleDetails{rand.Intn(95) + 5, battleId})
-        defender := []byte(pokemon[rand.Intn(pokemonLen-1)])
-        defenderDetails, _ := json.Marshal(BattleDetails{rand.Intn(95) + 5, battleId})
+		defender := []byte(pokemon[rand.Intn(pokemonLen-1)])
+		defenderDetails, _ := json.Marshal(BattleDetails{rand.Intn(95) + 5, battleId})
 
-        err := push(w, context.Background(), attacker, attackerDetails, "battle_attacker")
-        checkErr(err)
-        err = push(w, context.Background(), defender, defenderDetails, "battle_defender")
-        checkErr(err)
+		err := push(w, context.Background(), attacker, attackerDetails, "battle_attacker")
+		checkErr(err)
+		err = push(w, context.Background(), defender, defenderDetails, "battle_defender")
+		checkErr(err)
 	}
 }
