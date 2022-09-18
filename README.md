@@ -7,23 +7,7 @@
 # Architecture Overview
 
 ```text
-----------
-|        |     -------
-| PLAYER | --> |     |
-|        |     |     |
-----------     |     |
-               |     |
-----------     |  K  |
-|        |     |  A  |
-|  GAME  | --> |  F  | -->
-|        |     |  K  |
-----------     |  A  |
-               |     |
-----------     |     |
-|        |     |     |
-| SCORES | --> |     |
-|        |     ------- 
-----------
+
 ```
 
 # Installation
@@ -31,35 +15,11 @@
 * [Install Kafka](https://tecadmin.net/how-to-install-apache-kafka-on-ubuntu-22-04/)
 * [Install KsqlDB](https://ksqldb.io/quickstart-standalone-deb.html#quickstart-content)
 
-# Up & Running
-
-# Data
-
-* [GoFakeIt](https://github.com/brianvoe/gofakeit)
-* [SNES Games](https://www.gamedesigning.org/gaming/snes/)
-
-# Data Overview
-
-* Player data
-```json
-{ "id": 1, "name": "Janet" }
-{ "id": 2, "name": "Eric" }
-```
-
-* Games data
-```json
-{ "id": 1, "name": "Super Smash Bros" }
-{ "id": 2, "name": "Mario Kart" }
-```
-
-* Score data
-```json
-{ "score": 34500, "game_id": 1, "player_id": 1 }
-{ "score": 235000, "game_id": 2, "player_id": 2 }
-```
+# Queries
 
 # Versions
 
 * Kafka -> v 3.2.1
+* Go -> v 1.18.1
 
 # Reference
